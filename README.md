@@ -20,8 +20,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [](https://github.com/madiajijah11/qr-code-component)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/madiajijah11/qr-code-component](https://github.com/madiajijah11/qr-code-component)
+- Live Site URL: [https://madiajijah11.github.io/qr-code-component](https://madiajijah11.github.io/qr-code-component)
 
 ## My process
 
