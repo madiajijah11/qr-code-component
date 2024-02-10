@@ -50,7 +50,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
     </div>
 ```
 ```css
-      * {
+    * {
         box-sizing: border-box;
         margin: 0;
         padding: 0;
@@ -79,16 +79,15 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
       }
 
       .images {
-        width: 400px;
-        height: 400px;
-        border-radius: 20px;
+        width: 300px;
+        height: 300px;
+        border-radius: 10px;
       }
 
       .text-box {
         text-align: center;
-        padding: 20px;
-        max-width: 400px;
-        color: hsl(228, 12%, 44%);
+        padding: 10px;
+        max-width: 300px;
       }
 
       .title {
@@ -100,32 +99,32 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
       .paragraph {
         font-size: 15px;
         font-weight: 400;
-      }
-
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-        margin-top: 10px;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
+        color: hsl(220, 15%, 55%);
       }
 
       /* Mobile styles */
       @media only screen and (max-width: 375px) {
         .container {
           width: 80%; /* adjust as needed */
-          padding: 20px 0;
+          padding: 10px 0;
         }
 
         .images {
-          width: 80%;
+          width: 90%;
           height: auto; /* maintain aspect ratio */
+          margin-top: 5px;
         }
 
         .text-box {
           padding: 10px; /* adjust as needed */
-          max-width: 80%;
+          max-width: 90%;
+        }
+      }
+
+      /* Desktop styles */
+      @media only screen and (min-width: 1440px) {
+        .container {
+          max-width: 375px;
         }
       }
 ```
