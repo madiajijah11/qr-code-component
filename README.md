@@ -94,6 +94,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
         margin-bottom: 10px;
         font-size: 24px;
         font-weight: 700;
+        color: hsl(212, 45%, 89%);
       }
 
       .paragraph {
